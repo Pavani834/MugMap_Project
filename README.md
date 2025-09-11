@@ -56,6 +56,7 @@ User login and syncing saved cafés across devices
 
 ## 👩‍💻 Author
 Developed by Pavani834 ✨
+Feel free to fork and improve this project!
 
 
 
