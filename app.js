@@ -1,10 +1,11 @@
 const mockCafes = [
-  { name: "Bean There Cafe", place_id: "1", photo:"bean there.jpg", rating: 4.5 },
-  { name: "Daily Grind", place_id: "2", photo: "daily.jpeg", rating: 4.2 },
-  { name: "Latte Love", place_id: "3", photo: "latte.jpg", rating: 4.7 },
-  { name: "Brew & Co.", place_id: "4", photo: "brew.webp", rating: 4.3 },
-  { name: "Cuppa Joy", place_id: "5", photo: "joy.jpeg", rating: 4.6 }
+  { name: "Bean There Cafe", place_id: "1", photo:"images/bean there.jpg", rating: 4.5 },
+  { name: "Daily Grind", place_id: "2", photo: "images/daily.jpeg", rating: 4.2 },
+  { name: "Latte Love", place_id: "3", photo: "images/latte.jpg", rating: 4.7 },
+  { name: "Brew & Co.", place_id: "4", photo: "images/brew.webp", rating: 4.3 },
+  { name: "Cuppa Joy", place_id: "5", photo: "images/joy.jpeg", rating: 4.6 }
 ];
+
 
 function getLocation(force = false) {
   const cache = JSON.parse(localStorage.getItem('cachedLocation') || '{}');
